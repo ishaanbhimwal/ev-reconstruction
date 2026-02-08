@@ -22,6 +22,6 @@ with h5py.File(h5_path, "r") as f:
         print("Mean SSIM:", np.mean(ssim_vals))
         print("Mean MSE:", np.mean(mse_vals))
 
-    out_path = Path("event_vs_frame.gif")
+    out_path = Path("./res/event_vs_frame.gif")
     make_side_by_side_gif(event_imgs, frame_imgs, out_path, fps=30)
     print("Saved GIF to", out_path)
