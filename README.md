@@ -1,6 +1,6 @@
 # ev-reconstruction
 
-Basic implementation of event-based image reconstruction. Tested with the [MVSEC](https://daniilidis-group.github.io/mvsec/) dataset. For quick testing, download a sequence and place it as `data/indoor_flying1_data.hdf5`.
+Basic implementation of event-based image reconstruction using the [MVSEC](https://daniilidis-group.github.io/mvsec/) dataset. For quick testing, download any sequence and place it as `data/indoor_flying1_data.hdf5`.
 
 This project:
 
