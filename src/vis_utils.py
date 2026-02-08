@@ -3,7 +3,7 @@ import imageio
 import cv2
 
 
-def make_side_by_side_gif(event_imgs, frame_imgs, out_path, fps=15, scale=0.5):
+def make_side_by_side_gif(event_imgs, frame_imgs, out_path, fps=15, scale=0.8):
     """
     Save side-by-side GIF: [event | frame] per time step.
 

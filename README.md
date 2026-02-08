@@ -11,8 +11,6 @@ This project:
 - computes simple similarity metrics (SSIM and MSE)
 - writes a side-by-side GIF to visualize the reconstruction
 
-<!-- ![Event vs frame](./res/event_vs_frame.gif) -->
-
 <p align="center">
   <img src="./res/event_vs_frame.gif" width="800" alt="Event vs frame">
 </p>
